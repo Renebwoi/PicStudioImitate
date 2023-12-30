@@ -385,3 +385,46 @@ body{
 .contentHold.ReviewHold{
     text-align: center;
 }
+
+.testimonial-slide-controls{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+
+    margin: 50px 0px;
+}
+.slide-arrow{
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 0px;
+    cursor: pointer;
+
+    display: grid;
+    place-items: center;
+}
+.slide-arrow:hover{
+    background-color: var(--fadedYellow);
+}
+/* .slide-arrow:nth-child(1){
+
+} */
+
+.cameraImg{
+    width: 80svw;
+}
+
+
+.contactUs{
+    display: grid;
+    justify-items: center;
+    margin-top: 70px;
+    
+    row-gap: 30px;
+}
+.contactUs>h1{
+    font-size: 2rem;
+    margin-bottom: 45px;
+
+}
