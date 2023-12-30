@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PicStudioImitate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="nav-box">
+
+            <div class="nav-icon">
+                <div class="iconStick"></div>
+                <div class="iconStick"></div>
+                <div class="iconStick"></div>
+            </div>
+
+            <h1>PicStudioImitate</h1>
+        </div>
+        
+       <img src="images/slider-img.png" id="hero-image" alt="Woman holding a camera"> 
+
+        <section class="sliderDiv">
+
+            <article class="slide">
+                <h1>Pic <br>
+                    Studio</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    Request a Quote
+                </button>
+
+            </article>
+
+            <article class="slide">
+                <h1>Dic <br>
+                    Studio</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    Request a Quote
+                </button>
+                
+            </article>
+
+        </section>
+
+<!-- prev and next buttons -->
+        <section class="prevNextContainer">
+            <button type="button" class="move p" title="previous" onclick="moveWindow(1)"></button>
+            <button type="button" class="move n" title="next" onclick="moveWindow(2)"></button>
+        </section>
+
+
+<!-- the slider to switch boxes-->
+        <section class="progreSlider">
+            <div class="progresNum one" onclick="moveWindow(1)"> 01 </div>
+
+            <div class="progressLine"></div>
+            <div class="progressDot"></div>
+
+            <div class="progresNum two" onclick="moveWindow(2)"> 02 </div>
+        </section>
+
+        <section class="about">
+
+            <article class="slide aboutSlide">
+                <h1>About Studio</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    Read More
+                </button>
+
+            </article>
+
+            <article id="aboutImgBox">
+            <img src="images/about-img.png" id="about-img" alt="man holding a camera">
+
+            <button type="button" class="playButton" title="playButton">
+                <div id="playIcon"></div>
+            </button>
+            </article>
+
+        </section>
+
+        <!-- <section class="gallery">
+
+            <article class="slide aboutSlide aboutSlideGallery">
+                <h1>Our Gallery</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    See More
+                </button>
+
+            </article>
+
+            <article class="AboutImageDiv">
+                <img src="images/gallery-bg.png" class="aboutImgBkg" alt="background">
+
+                <div class="images-grid">
+                    <div class="galleryImg a1">PHOTOGRAPHY</div>
+                    <div class="galleryImg a2">PHOTOGRAPHY</div>
+                    <div class="galleryImg a3">PHOTOGRAPHY</div>
+                    <div class="galleryImg a4">PHOTOGRAPHY</div>
+                    <div class="galleryImg a5">PHOTOGRAPHY</div>
+                    <div class="galleryImg a6">PHOTOGRAPHY</div>
+                </div>
+            </article>
+
+        </section> -->
+
+        <section class="gallery">
+
+            <article class="slide aboutSlide aboutSlideGallery">
+                <h1>Our Gallery</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    See More
+                </button>
+
+            </article>
+
+            <article class="AboutImageDiv">
+                <img src="images/gallery-bg.png" class="aboutImgBkg" alt="background">
+
+                <div class="images-grid">
+                    <div class="galleryImg galleryImger a1">PHOTOGRAPHY</div>
+                    <div class="galleryImg galleryImger a2">PHOTOGRAPHY</div>
+                    <div class="galleryImg galleryImger a3">PHOTOGRAPHY</div>
+                    <div class="galleryImg galleryImger a4">PHOTOGRAPHY</div>
+                    <div class="galleryImg galleryImger a5">PHOTOGRAPHY</div>
+                    <div class="galleryImg galleryImger a6">PHOTOGRAPHY</div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="gallery">
+
+            <article class="slide aboutSlide aboutSlideGallery">
+                <h1>Latest Blog</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    Read More
+                </button>
+
+            </article>
+
+            <article class="AboutImageDiv">
+                <img src="images/gallery-bg.png" id="aboutImgBkg" alt="background">
+
+                <div class="images-grid">
+                    <div class="galleryImg latstCard">
+                        <img src="images/blog1.jpg" class="latestImg" alt="woman taking pictures">
+
+                        <div class="contentHold">
+                            <h3>BEST PHOTOGRAPHY</h3>
+                            <div class="postDiv">
+                                <span class="postBy">Post By: Pic studio</sp>
+                                <span class="dateB">16-01-2020</span>
+                            </div>
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quisquam explicabo? 
+                            Sed assumenda amet sunt architecto? Necessitatibus tempore sequi itaque quos, et tenetur commodi earum rem, 
+                            fugiat ratione minima sit velit. Totam modi quidem perspiciatis vel. Cumque consectetur, mollitia tempora nemo in 
+                            temporibus veniam ab nobis quo, et fugit explicabo! 
+                            </p>
+                        </div>
+                    </div>
+
+                     <div class="galleryImg latstCard">
+                        <img src="images/blog2.jpg" class="latestImg" alt="woman taking pictures">
+
+                        <div class="contentHold">
+                            <h3>BEST PHOTOGRAPHY</h3>
+                            <div class="postDiv">
+                                <span class="postBy">Post By: Pic studio</sp>
+                                <span class="dateB">16-01-2020</span>
+                            </div>
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quisquam explicabo? 
+                            Sed assumenda amet sunt architecto? Necessitatibus tempore sequi itaque quos, et tenetur commodi earum rem, 
+                            fugiat ratione minima sit velit. Totam modi quidem perspiciatis vel. Cumque consectetur, mollitia tempora nemo in 
+                            temporibus veniam ab nobis quo, et fugit explicabo! 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="gallery">
+
+            <article class="slide aboutSlide aboutSlideGallery">
+                <h1>What says customer?</h1>
+
+                <p>
+                    It is a long established fact that a reader will be 
+                    distracted by the readable content of a page
+                </p>
+
+                <button type="button" title="button">
+                    Read More
+                </button>
+
+            </article>
+
+            <article class="AboutImageDiv">
+                <img src="images/gallery-bg.png" class="aboutImgBkg" alt="background">
+
+                <div class="images-grid testimonial">
+                    <div class="galleryImg latstCard reviewCard">
+                        <img src="images/client.png" class="reviewImg" alt="woman taking pictures">
+
+                        <div class="contentHold ReviewHold">
+                            <h3>Pilo Dorak</h3>
+                            
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quisquam explicabo? 
+                            Sed assumenda amet sunt architecto? Necessitatibus tempore sequi itaque quos, et tenetur commodi earum rem, 
+                            fugiat ratione minima sit velit. Totam modi quidem perspiciatis vel. Cumque consectetur, mollitia tempora nemo in 
+                            temporibus veniam ab nobis quo, et fugit explicabo! 
+                            </p>
+                        </div>
+                    </div>
+
+                     <div class="galleryImg latstCard ">
+                        <img src="images/blog2.jpg" class="latestImg" alt="woman taking pictures">
+
+                        <div class="contentHold">
+                            <h3>BEST PHOTOGRAPHY</h3>
+                            <div class="postDiv">
+                                <span class="postBy">Post By: Pic studio</sp>
+                                <span class="dateB">16-01-2020</span>
+                            </div>
+                            <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quisquam explicabo? 
+                            Sed assumenda amet sunt architecto? Necessitatibus tempore sequi itaque quos, et tenetur commodi earum rem, 
+                            fugiat ratione minima sit velit. Totam modi quidem perspiciatis vel. Cumque consectetur, mollitia tempora nemo in 
+                            temporibus veniam ab nobis quo, et fugit explicabo! 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>
